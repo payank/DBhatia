@@ -1,4 +1,5 @@
 import React from "react";
+import contactImage from "../components/assets/images/contact.webp"
 
 const SEPARATOR = ':' ;
 
@@ -10,7 +11,7 @@ function Contact() {
           {/* Left Section: Contact Us Image */}
           <div className="flex justify-center items-center">
             <img
-              src="https://via.placeholder.com/300x200" // Replace with actual image URL
+              src={contactImage} // Replace with actual image URL
               alt="Contact Us"
               className="border-2 border-blue-300 rounded-lg"
             />
@@ -18,7 +19,7 @@ function Contact() {
 
           {/* Right Section: Contact Information */}
           <div className="md:col-span-2">
-            <h1 className="text-2xl font-bold text-blue-600">D. BHATIA & CO.</h1>
+            <h1 className="text-2xl font-bold text-primary">D. BHATIA & CO.</h1>
             <p className="text-lg text-gray-700 font-semibold">Chartered Accountants</p>
 
             <div className="mt-4 text-gray-700">

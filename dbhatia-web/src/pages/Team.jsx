@@ -43,14 +43,14 @@ function Team() {
   return (
     <div className="p-6 bg-gray-100">
       <div className="max-w-6xl mx-auto bg-white shadow-md rounded-lg p-6">
-        <h1 className="text-3xl font-bold text-blue-600 mb-6">Our Team</h1>
+        <h1 className="text-3xl font-bold text-primary mb-6">Our Team</h1>
         <p className="mb-8 text-gray-700">
           Our dedicated team comprises competent people with extensive knowledge and experience. Our professionalism and expertise help us to serve our clients to their satisfaction. Some of the key members of our firm are:
         </p>
         <div className="space-y-8">
           {teamMembers.map((member, index) => (
             <div key={index} className="border-b pb-6">
-              <h2 className="text-xl font-bold text-blue-600">{member.name}</h2>
+              <h2 className="text-xl font-bold text-primary">{member.name}</h2>
               <p className="text-md font-semibold text-gray-700">{member.title}</p>
               <div className="mt-4 space-y-2">
                 {member.description.map((para, idx) => (

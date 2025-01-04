@@ -26,7 +26,7 @@ function SectoralExposure() {
   return (
     <div className="p-6 bg-gray-100">
       <div className="max-w-5xl mx-auto bg-white shadow-md rounded-lg p-6">
-        <h1 className="text-3xl font-bold text-blue-600 mb-6">Sectoral Exposure</h1>
+        <h1 className="text-3xl font-bold text-primary mb-6">Sectoral Exposure</h1>
         <p className="text-gray-700 mb-4">
           Our expertise spans a wide range of sectors, helping businesses across industries thrive and succeed.
         </p>

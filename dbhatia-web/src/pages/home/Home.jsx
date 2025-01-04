@@ -5,10 +5,14 @@ import AboutUs from "./AboutUs";
 import Team from "./Team";
 import WhatsNew from "./WhatsNew";
 import Login from "./Login";
+import Banner from "../../components/Banner";
+
+import bannerImage from "../../components/assets/images/banner.webp";
 
 function Home() {
   return (
     <div className="p-6 bg-gray-100">
+      <Banner />
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-4">
         {/* Left Column: Range of Services & Utilities */}
         <div className="space-y-6">
@@ -19,13 +23,13 @@ function Home() {
         {/* Center Column: Main Content */}
         <div className="space-y-6">
           {/* Header Image */}
-          <div className="bg-white rounded-lg shadow-md">
+          {/* <div className="bg-white rounded-lg shadow-md">
             <img
-              src="https://via.placeholder.com/1200x300"
+              src={bannerImage}
               alt="Main Banner"
-              className="w-full rounded-t-lg"
+              className="w-full rounded-t-lg h-auto object-cover"
             />
-          </div>
+          </div> */}
           <AboutUs />
           <Team />
         </div>

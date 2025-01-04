@@ -69,7 +69,7 @@ function CareerForm() {
   return (
     <div className="p-6 bg-gray-100">
       <div className="max-w-5xl mx-auto bg-white shadow-md rounded-lg p-6">
-        <h1 className="text-2xl font-bold text-center mb-6">-Apply Here-</h1>
+        <h1 className="text-2xl font-bold text-center mb-6 text-primary">Apply Here</h1>
         <p className="text-center mb-6">
           We nurture and cultivate a sense of pride in the work and create team
           leaders. Your growth chart will be governed by well-defined
