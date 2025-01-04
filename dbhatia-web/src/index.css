@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --primary-color: #3ea8e6; /* Default Tailwind blue-600 */
+  }

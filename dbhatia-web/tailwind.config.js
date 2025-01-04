@@ -4,7 +4,11 @@ export default {
     "./src/**/*.{js,jsx,ts,tsx}", // Include all your component files
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "var(--primary-color)", // Use CSS variable for primary color
+      },
+    },
   },
   daisyui: {
     themes: ["light", "dark", "cupcake"], // Enable multiple themes

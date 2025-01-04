@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import services from "../../constants/serviceData";
+import services from "../../components/constants/serviceData";
 
 function ServiceDetails() {
   const { serviceId } = useParams(); // Get the service ID from the URL
