@@ -9,7 +9,10 @@ function RangeOfServices() {
       <ul className="space-y-2">
         {services.map((service) => (
           <li key={service.id}>
-            <Link to={`/services/${service.id}`} className="hover:underline">
+            <Link 
+              to={`/services/${service.id}`} 
+              className="hover:font-bold hover:underline transition-all duration-300"
+              >
               {service.name}
             </Link>
           </li>

@@ -21,7 +21,8 @@ function ServiceDetails() {
         <h1 className="text-2xl font-bold text-primary mb-4">{service.name}</h1>
         <ul className="list-disc pl-6 space-y-2 text-gray-700">
           {service.description.map((item, index) => (
-            <li key={index}>{item}</li>
+            <li
+              key={index}>{item}</li>
           ))}
         </ul>
       </div>

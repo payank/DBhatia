@@ -1,5 +1,5 @@
 import React from "react";
-import bannerImage from "../components/assets/images/banner.webp";
+import bannerImage from "../components/assets/images/banner1.png";
 
 function Banner() {
   return (
@@ -7,7 +7,7 @@ function Banner() {
       <img
         src={bannerImage}
         alt="Banner"
-        className="w-full h-96 object-cover"
+        className="w-full h-96"
       />
     </div>
   );

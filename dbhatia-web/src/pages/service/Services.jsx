@@ -12,7 +12,7 @@ function Services() {
         </p>
         <ul className="space-y-4">
           {services.map((service) => (
-            <li key={service.id} className="text-primary hover:underline">
+            <li key={service.id} className="text-primary hover:underline hover:font-bold transition-all duration-300">
               <Link to={`/services/${service.id}`}>{service.name}</Link>
             </li>
           ))}
