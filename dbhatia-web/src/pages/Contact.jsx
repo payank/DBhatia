@@ -1,5 +1,5 @@
 import React from "react";
-import contactImage from "../components/assets/images/contact.webp"
+import contactImage from "../components/assets/images/contact1.png"
 
 const SEPARATOR = ':' ;
 
