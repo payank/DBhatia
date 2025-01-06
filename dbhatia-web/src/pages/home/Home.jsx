@@ -7,8 +7,6 @@ import WhatsNew from "./WhatsNew";
 import Login from "./Login";
 import Banner from "../../components/Banner";
 
-import bannerImage from "../../components/assets/images/banner.webp";
-
 function Home() {
   return (
     <div className="p-6 bg-gray-100">
@@ -22,14 +20,6 @@ function Home() {
 
         {/* Center Column: Main Content */}
         <div className="space-y-6">
-          {/* Header Image */}
-          {/* <div className="bg-white rounded-lg shadow-md">
-            <img
-              src={bannerImage}
-              alt="Main Banner"
-              className="w-full rounded-t-lg h-auto object-cover"
-            />
-          </div> */}
           <AboutUs />
           <Team />
         </div>
