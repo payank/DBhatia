@@ -8,7 +8,8 @@ function Team() {
       <p className="text-gray-700">
         Our dedicated team comprises competent people with extensive knowledge
         and experience. Our professionalism and expertise help us to serve our
-        clients to their satisfaction.
+        clients to their satisfaction. Some of the key members of our firm are:
+        Mr. Sunil Bhatia, Mr. Abhishek Jain, Mr. Ankur Jindal, Mr. Jagdish Prasad Nagar
       </p>
       <div className="mt-4">
         <Link to="/team" className="text-primary hover:underline font-semibold">
