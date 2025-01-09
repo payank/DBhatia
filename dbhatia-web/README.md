@@ -22,3 +22,10 @@
     npm i react-router-dom
 - Create BrowserRouter > Routes > Route=Body > RouteChildren
 - Create an Outlet in Body component
+- Install axios
+    npm install axios
+
+- Install react-redux PLUS reduxjs/toolkit: https://redux-toolkit.js.org/tutorials/quick-start
+    npm install @reduxjs/toolkit react-redux
+- ==> configureStore ==> Provider ==> createSlice ==> add reducer to store
+
