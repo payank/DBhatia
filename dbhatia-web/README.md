@@ -1,5 +1,4 @@
 # DBhatia
-
 - Create a Vite + React Application
     npm create vite@latest dbhatia-web -- --template react
 - Remove unnecessary code and Create a Hello World app
@@ -32,3 +31,19 @@
 - Login and see if your data is coming properly in store
 - Navbar should update as soon as user logs in
 - Refactor code to add constants file + create a component folder
+- You should not be able to access the route without login
+- If token is not present, redirect it to  login page
+- build : Logout and Profile page feature
+- New Page- Feed (all requests OTHER THAN -ignored user/already connected with/own card )
+- Get the feed and add the feed in the redux store
+- Build the user card on the feed
+- Edit Profile feature
+- Show Toast Message on Save of profile (snackbar)
+- New Page- See all my connections (all accepted requests)
+- New Page- See all my connection requests (all other interested requests)
+- Feature - Accept/Reject Connection Request
+- Feature - Send/Ignore the user card from the feed
+- Feature - SignUp new user
+- E2E Testing
+
+

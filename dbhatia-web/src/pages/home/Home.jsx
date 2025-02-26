@@ -6,7 +6,7 @@ import Team from "./Team";
 import WhatsNew from "./WhatsNew";
 import Login from "./Login";
 import Banner from "../../components/Banner";
-
+const isAdmin = true;
 function Home() {
   return (
     <div className="p-6 bg-gray-100">
@@ -14,7 +14,7 @@ function Home() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-4">
         {/* Left Column: Range of Services & Utilities */}
         <div className="space-y-6">
-          <RangeOfServices />
+          {isAdmin ? <RangeOfServices /> : null}
           <Utilities />
         </div>
 
